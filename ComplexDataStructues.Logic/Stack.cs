@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComplexDataStructures
 {
-    class Stack<T> :IEnumerable<T>
+    public class Stack<T> :IEnumerable<T>
     {
         private int Count { get; set; }
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComplexDataStructures
 {
-    class Queue<T>: IEnumerable<T>
+    public class Queue<T>: IEnumerable<T>
     {
         private int Count { get; set; }
         private LinkedListNode<T> Head { get; set; }

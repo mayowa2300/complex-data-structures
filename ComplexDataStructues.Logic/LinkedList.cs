@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComplexDataStructures
 {
-    class LinkedList<T> : ICollection<T>
+    public class LinkedList<T> : ICollection<T>
     {
 
         public int Count { get; set; }
